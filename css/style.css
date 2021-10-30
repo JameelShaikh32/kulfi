@@ -47,6 +47,23 @@ body {
     font-weight: bold;
 }
 
+.heading_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_container a {
+    text-decoration: none;
+    color: #F4BE33;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.heading_container a:hover {
+    color: #f7274a;
+}
+
 .heading_container.heading_center {
     -webkit-box-align: center;
     -ms-flex-align: center;

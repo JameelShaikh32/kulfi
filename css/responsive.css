@@ -128,4 +128,16 @@
     .menu-section .menu-container .menu .lists {
         width: 100%;
     }
+    .info_section .social_container {
+        margin-top: 0;
+        line-height: 5px;
+        display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    .heading_container {
+        width: 100%;
+        display: inline;
+    }
 }
