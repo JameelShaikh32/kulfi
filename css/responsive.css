@@ -135,9 +135,10 @@
     }
 }
 
-@media (max-width: 600px) {
-    .heading_container {
+
+/* @media (max-width: 600px) {
+    .social_container {
         width: 100%;
         display: inline;
     }
-}
+} */
