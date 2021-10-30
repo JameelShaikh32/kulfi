@@ -130,6 +130,19 @@
     .info_section .social_container {
         margin-top: 0;
         line-height: 5px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .info_section .social_container .branch {
+        width: 100%;
+        padding: 40px;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .info_section .social_container .branch a {
+        margin: 10px;
     }
 }

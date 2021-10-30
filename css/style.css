@@ -594,6 +594,7 @@ a:focus {
 
 .ordr-btns {
     display: flex;
+    justify-content: center;
 }
 
 #zomato {
@@ -829,6 +830,22 @@ a:focus {
 
 .info_section .social_container {
     margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_section .social_container .branch h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.info_section .social_container .branch a {
+    text-decoration: none;
+    color: #F4BE33;
+}
+
+.info_section .social_container .branch a:hover {
+    color: green;
 }
 
 .info_section .social-box {
