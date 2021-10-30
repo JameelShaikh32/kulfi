@@ -157,6 +157,11 @@ a:focus {
     text-transform: uppercase;
 }
 
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+}
+
 .navbar-brand span {
     color: #F4BE33;
 }
@@ -585,6 +590,10 @@ a:focus {
 
 .ordr {
     height: 100px;
+}
+
+.ordr-btns {
+    display: flex;
 }
 
 #zomato {
