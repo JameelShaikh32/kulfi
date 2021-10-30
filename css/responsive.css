@@ -68,11 +68,10 @@
     }
     .contact_section {
         width: 100%;
-        background-color: white;
-        color: black;
+        color: white;
     }
     .desc {
-        color: black;
+        color: white;
     }
 }
 
@@ -134,11 +133,3 @@
         display: flex;
     }
 }
-
-
-/* @media (max-width: 600px) {
-    .social_container {
-        width: 100%;
-        display: inline;
-    }
-} */
